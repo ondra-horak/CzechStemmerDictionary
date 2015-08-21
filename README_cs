@@ -1,0 +1,20 @@
+
+SLOVNIK: basic-cs
+-----------------
+Tento slovnik je odvozen od slovniku pro kontrolu ceskeho pravopisu pro OpenOffice.org, jenz vychazi 
+ze slovniku pro ispell (autor Petr Kolar).  
+(http://extensions.openoffice.org/en/project/czech-dictionary-pack-ceske-slovniky-cs-cz)
+
+Slovnik je urcen pro praci s nastrojem CzechStemmer, neni pouzitelny pro puvodni projekty jako ispell, hunspell atd.
+
+Vyznamne zmeny oproti puvodni verzi jsou nasledujici:
+* slovnik je zkracen na "rozumnou" podmnozinu ceskych sov
+* slovnik a sada odvozovacich pravidel jsou rozsireny o nepravidelna slova a slova se zmenou v koreni (kun, pes), byla pridana zajmena atd.
+* k pravidlum byl pridan "sticky" flag, ktery se pouziva k reaplikaci pravidel na nalezene lemma; z praktickeho hlediska  jde o vytvoreni novych lemmat pomoci pravidel; takto je mj. mozne oddelit lemmatizaci kladnych a zapornych tvaru (predpona ne- je sticky)
+* stupnovani je nyni reseno systemove dvema zavislymi pravidly (v puvodni verzi byl komparativ oddelen jako zvlastni lemma), tj. je mozne odvodit vhodny -> vhodnejsi -> nejvhodnejsi
+ 
+
+Slovnik je distribuovan pod licenci GNU GPL verze 2, jejiz oficialni anglicka verze 
+je prilozena v souboru LICENSE.
+
+

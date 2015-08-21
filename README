@@ -1,0 +1,7 @@
+Základní verze s "rozumným" množstvím slov a s inteligentnějším generováním tvarů:
+- sticky pravidla pro negaci
+- sticky pravidla pro odvození vlastností z přídavných jmen (vhodný => vhodnost)
+- stupňování (závislost PFX/SFX)
+- doplněna slova s nepravidelnostmi a se změnami v kořeni při ohýbání (kůň -> koně apod.)
+- drobné opravy (špatné pravidlo pro "švec"...)
+- ponechána max. množina pravidel vč. generování neobvyklých tvarů (přechodníky apod.)

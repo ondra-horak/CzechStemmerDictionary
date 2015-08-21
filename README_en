@@ -1,0 +1,14 @@
+
+
+DICTIONARY: basic-cs
+--------------------
+
+This dictionary is derived from the OpenOffice.org spellcheck dictionary, which is based on the work of Petr Kolar.
+(http://extensions.openoffice.org/en/project/czech-dictionary-pack-ceske-slovniky-cs-cz)
+
+The dictionary is intended for use with CzechStemmer utilities, it cannot be used with the origin tools like ispell,
+hunspell etc.
+
+The dictionary is licensed under GNU GPL version 2 (see attached LICENSE file).
+
+
